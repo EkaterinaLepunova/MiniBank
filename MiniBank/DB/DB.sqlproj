@@ -64,6 +64,7 @@
     <Build Include="dbo\Tables\Payments.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Schema Comparison\SqlSchemaCompare1.scmp" />
+    <None Include="Schema Comparison\DBToProject.scmp" />
+    <None Include="Schema Comparison\ProjectToDB.scmp" />
   </ItemGroup>
 </Project>

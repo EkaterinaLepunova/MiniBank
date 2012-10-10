@@ -1,2 +1,8 @@
 ﻿.gitignore
 MiniBank/DB/DB.dbmdl
+MiniBank/bin/EntityFramework.dll
+MiniBank/bin/Microsoft.Web.Infrastructure.dll
+MiniBank/DB/bin/Debug/DB.dacpac
+MiniBank/MiniBank/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+MiniBank/DB/obj/Debug/DB.dll
+MiniBank/MiniBank/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
