@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBank", "MiniBank\MiniBank.csproj", "{127C7428-E603-47A0-AC21-F630A018A610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniBankDatabase", "MiniBankDatabase\MiniBankDatabase.csproj", "{A708A125-E846-403A-8BAC-B106DA9EB4FB}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DB", "DB\DB.sqlproj", "{7BAB2ABA-97AB-4870-BF52-75A446938367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,12 @@ Global
 		{127C7428-E603-47A0-AC21-F630A018A610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{127C7428-E603-47A0-AC21-F630A018A610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{127C7428-E603-47A0-AC21-F630A018A610}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A708A125-E846-403A-8BAC-B106DA9EB4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A708A125-E846-403A-8BAC-B106DA9EB4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A708A125-E846-403A-8BAC-B106DA9EB4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A708A125-E846-403A-8BAC-B106DA9EB4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAB2ABA-97AB-4870-BF52-75A446938367}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
