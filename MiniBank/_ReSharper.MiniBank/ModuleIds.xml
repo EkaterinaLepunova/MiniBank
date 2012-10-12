@@ -1,0 +1,10 @@
+<Modules>
+  <Module PersistentId="127C7428-E603-47A0-AC21-F630A018A610" ModuleId="MiniBank" />
+  <Module PersistentId="A83F2577-70BE-4098-970C-0870E36E6306" ModuleId="Dal" />
+  <Module PersistentId="5A785FA3-94F9-498D-81A1-616F4C103A69" ModuleId="ServiceInterface" />
+  <Module PersistentId="395278C5-BDCE-411C-A6A3-99EA1BC93263" ModuleId="Host" />
+  <Module PersistentId="0DB98C7D-9E11-46EC-A2C0-8F74D6398241" ModuleId="TestWCFService" />
+  <Module PersistentId="1870E498-D147-4F21-9AAC-FA08AB6F1741" ModuleId="WCFServices" />
+  <Module PersistentId="85105912-6BA9-46CC-B6EA-0575DEC2AAFF" ModuleId="WcfHost" />
+  <Module PersistentId="8D8014BB-BE75-4CBC-8B95-4C7756DD6DDB" ModuleId="Host_Wcf" />
+</Modules>
