@@ -1,9 +1,0 @@
-D:\TestProject\MiniBank\DB\bin\Debug\DB.dacpac
-D:\TestProject\MiniBank\DB\bin\Debug\DB.dll
-D:\TestProject\MiniBank\DB\bin\Debug\DB.pdb
-D:\TestProject\MiniBank\DB\obj\Debug\Model.xml
-D:\TestProject\MiniBank\DB\obj\Debug\refactor.xml
-D:\TestProject\MiniBank\DB\obj\Debug\postdeploy.sql
-D:\TestProject\MiniBank\DB\obj\Debug\predeploy.sql
-D:\TestProject\MiniBank\DB\obj\Debug\DB.dll
-D:\TestProject\MiniBank\DB\obj\Debug\DB.pdb
