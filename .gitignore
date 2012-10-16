@@ -6,12 +6,8 @@ MiniBank/DB/bin/Debug/DB.dacpac
 MiniBank/MiniBank/obj/Debug/DesignTimeResolveAssemblyReferences.cache
 MiniBank/DB/obj/Debug/DB.dll
 MiniBank/MiniBank/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
-MiniBank/_ReSharper.MiniBank/PersistentCaches/LOCK
-MiniBank/_ReSharper.MiniBank/*.*
-MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
-MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
+MiniBank/_ReSharper.MiniBank/*
 MiniBank/_ReSharper.MiniBank/*.dat
-MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -41,5 +37,5 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
-MiniBank/_ReSharper.MiniBank/*.dat
-MiniBank/_ReSharper.MiniBank/*.dat
+MiniBank/_ReSharper*/
+MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
