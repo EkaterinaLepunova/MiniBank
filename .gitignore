@@ -1,4 +1,4 @@
-﻿.gitignore
+.gitignore
 MiniBank/DB/DB.dbmdl
 MiniBank/bin/EntityFramework.dll
 MiniBank/bin/Microsoft.Web.Infrastructure.dll
@@ -7,3 +7,37 @@ MiniBank/MiniBank/obj/Debug/DesignTimeResolveAssemblyReferences.cache
 MiniBank/DB/obj/Debug/DB.dll
 MiniBank/MiniBank/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
 MiniBank/_ReSharper.MiniBank/PersistentCaches/LOCK
+MiniBank/_ReSharper.MiniBank/*.*
+MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
+MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
+MiniBank/_ReSharper.MiniBank/*.dat
+MiniBank/_ReSharper.MiniBank/AspFileDataCache.dat
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
