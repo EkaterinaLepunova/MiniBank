@@ -1,14 +1,129 @@
 ﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    <script src="@Url.Content("~/Scripts/First2.js")" type="text/javascript"></script>
 }
 
-@*<h2>@ViewBag.Hello</h2>
-<br />
-<br />
-<ul>
-    @foreach (string name in ViewBag.Users)
-    {
-        <li>@name</li>
-    }
-</ul>*@
+@section Header
+{
+    <h1>Header</h1>
+}
+
+@section Leftcontent{
+    @*<h2>@ViewBag.Hello</h2>
+    <br />
+    <br />
+    <ul>
+        @foreach (string name in ViewBag.Users)
+        {
+            <li>@name</li>
+        }
+    </ul>*@
+    <br />
+    <p>
+        OFFICIAL FORUMS
+
+http://forum.jquery.com/
+
+There are many subforums where you can discuss jQuery, ask questions, talk about JavaScript, or announce your plugins.
+
+Getting Started - this is the best place to post if you are brand new to jQuery and JavaScript.
+Using jQuery - this is the best place to post if you have general questions or concerns. Also, if you've built a site that uses jQuery, or would like to announce a new plugin, this is the place to do it.
+Developing jQuery Core - This mailing list centers around development of the jQuery library itself. Post here if you have questions about certain bugs, development with jQuery, features, or anything in the bug tracker or Git.
+Using jQuery UI - the place to discuss use of jQuery UI Interactions, Widgets, and Effects - Draggable, Droppable, Resizable, Selectable, Sortable, Accordion, Datepicker, Dialog, Progressbar, Slider, Tabs, Theming.
+Developing jQuery UI - the place to discuss development of jQuery UI itself - including bugs, new plugins, and how you can help. All jQuery UI svn commits are posted to this list to facilitate feedback, discussion, and review. Also note that a lot of the development and planning of jQuery UI takes place on the jQuery UI Development and Planning Wiki
+Using jQuery Plugins - If you are a plugin author or user and you wish to discuss specific plugins, plugin bugs, new features, or new plugins.
+At the bottom of each of the forums is an RSS feed you can subscribe to.
+
+To ensure that you'll get a useful answer in no time, please consider the following advice:
+
+ensure your markup is valid
+use Firebug to see if you have an exception
+use Firebug to inspect the html classes, css. etc.
+try expected resulting html and css without javascript/jQuery and see if the problem could be isolated to those two
+reduce to a minimal test case (keep removing things until the problem goes away, etc.)
+provide that test case as part of your mail, either upload it somewhere or post it on jsbin.com
+    In general, keep your question short and focused and provide only essential details - others can be added when required.
+    </p>
+}
+
+@section CenterContent
+{
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/login.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/myJsNamespace.js")" type="text/javascript"></script>
+    <h1>Custom object</h1>
+    <br />
+    <ul>
+        <li><a href="#">One </a></li>
+        <li><a href="#">Two </a></li>
+        <li><a href="#">Three</a></li>
+    </ul>
+    <br/><br/><br/>
+    <fieldset>	
+			<legend>Login</legend>	
+			<form id="form">
+				<input type="text" id="tbxLogin" value="Login"/>
+				<div class="error" hidden="true"></div>	
+				<input type="password" id="tbxPassword" value="Login"/>
+				<div class="error" hidden="true"></div>	
+				<input type="password" id="tbxConfirm" value="Login"/>
+				<div class="error" hidden="true"></div>
+				<br/>
+                <input type="button" id="btnRegister" value="Register"/>
+                <div class="error" hidden="true"></div>
+			</form>
+		</fieldset>
+		<script type="text/javascript">
+		    new LoginFormEditor();
+		    new anchorChanger();
+		</script>
+
+    @*<script src="@Url.Content("~/Scripts/MicrosoftAjax.js")" type="text/javascript"></script>*@
+    <script type="text/javascript">
+           new ns.AnchorChanger();
+    </script>
+}
+
+@section RightContent
+{
+    <p>
+        Tutorials:How jQuery Works
+(Redirected from How jQuery Works)
+A basic introduction to jQuery and the concepts that you need to know to use it.
+
+Author: John Resig.
+
+Similar Tutorials: jQuery Core, Selectors, CSS, Traversing, Manipulation, Events, Effects
+
+This is a basic tutorial, designed to help you get started using jQuery. If you don't have a test page set up yet, start by creating a new HTML page with the following contents:
+
+
+Edit the src attribute in the script tag to point to your copy of jquery.js. For example, if jquery.js is in the same directory as your HTML file, you can use:
+
+You can download your own copy of jQuery from the Downloading jQuery page
+
+Launching Code on Document Ready
+
+The first thing that most Javascript programmers end up doing is adding some code to their program, similar to this:
+
+ window.onload = function(){ alert("welcome"); }
+Inside of which is the code that you want to run right when the page is loaded. Problematically, however, the Javascript code isn't run until all images are finished downloading (this includes banner ads). The reason for using window.onload in the first place is that the HTML 'document' isn't finished loading yet, when you first try to run your code.
+
+To circumvent both problems, jQuery has a simple statement that checks the document and waits until it's ready to be manipulated, known as the ready event:
+
+ $(document).ready(function(){
+   // Your code here
+ });
+Inside the ready event, add a click handler to the link:
+
+ $(document).ready(function(){
+   $("a").click(function(event){
+     alert("Thanks for visiting!");
+   });
+ });
+Save your HTML file and reload the test page in your browser. Clicking the link on the page should make a browser's alert pop-up, before leaving to go to the main jQuery page.
+
+For click and most other events, you can prevent the default behaviour - here, following the link to jquery.com - by calling event.preventDefault() 
+    </p>
+}

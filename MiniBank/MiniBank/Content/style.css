@@ -1,0 +1,39 @@
+form{
+	margin: auto;
+}
+
+input{
+	width: 90%;	
+	padding: 2%;
+	margin: 3%;		
+	border-radius: 5px;
+}
+
+#btnRegister{
+	width: 50%;
+	margin: auto;
+	margin-left: 20%;
+	border-radius: 20px;
+}
+
+fieldset{
+	width: 20%;	
+	border-radius: 10px;
+}
+
+.standartBorder{
+	border: solid 1px #9C9C9C;
+}
+
+.yellowBorder{
+	border: solid 2px yellow;
+	box-shadow: 0 0 10px yellow;
+}
+
+.error{
+	font: italic 11px/20px arial,sans-serif;
+	color: red;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}

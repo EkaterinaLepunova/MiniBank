@@ -124,6 +124,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\layoutStyle.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -180,6 +182,10 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\First2.js" />
+    <Content Include="Scripts\login.js" />
+    <Content Include="Scripts\myJsNamespace.js" />
+    <Content Include="Scripts\Views\SomeClass\First.js" />
     <Content Include="Service References\ServiceReference1\MiniBankProject.ServiceReference1.HelloWorldResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>

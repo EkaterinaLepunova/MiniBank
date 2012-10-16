@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ServiceModel;
-using System.Web.Mvc;
-using MiniBankProject.HelloService;
-using MiniBankProject.Models;
+﻿using System.Web.Mvc;
 
 namespace MiniBankProject.Controllers
 {
